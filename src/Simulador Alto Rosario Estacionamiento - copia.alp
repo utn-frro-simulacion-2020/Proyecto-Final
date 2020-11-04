@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008201438" AlpVersion="8.5.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.6.0.202008122206" AlpVersion="8.5.7">
 <Model>
 	<Id>1598905244713</Id>
 	<Name><![CDATA[Simulador Alto Rosario Estacionamiento - copia]]></Name>
@@ -112,7 +112,7 @@
 			<TrafficLight>
 				<Id>1603748961321</Id>
 				<Name><![CDATA[Semáforo1]]></Name>
-				<X>1000</X><Y>860</Y>
+				<X>1080</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -140,7 +140,7 @@
 			<TrafficLight>
 				<Id>1603749139139</Id>
 				<Name><![CDATA[Semáforo2]]></Name>
-				<X>1080</X><Y>860</Y>
+				<X>1160</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -165,7 +165,7 @@
 			<TrafficLight>
 				<Id>1603749198485</Id>
 				<Name><![CDATA[Semáforo3]]></Name>
-				<X>1160</X><Y>860</Y>
+				<X>1240</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -204,7 +204,7 @@
 			<TrafficLight>
 				<Id>1603749305559</Id>
 				<Name><![CDATA[Semáforo4]]></Name>
-				<X>1230</X><Y>860</Y>
+				<X>1310</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -235,7 +235,7 @@
 			<TrafficLight>
 				<Id>1603749417477</Id>
 				<Name><![CDATA[Semáforo5]]></Name>
-				<X>1300</X><Y>860</Y>
+				<X>1380</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -278,7 +278,7 @@
 			<TrafficLight>
 				<Id>1603749535865</Id>
 				<Name><![CDATA[Semáforo6]]></Name>
-				<X>1370</X><Y>860</Y>
+				<X>1450</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -309,7 +309,7 @@
 			<TrafficLight>
 				<Id>1603749599025</Id>
 				<Name><![CDATA[Semáforo7]]></Name>
-				<X>1440</X><Y>860</Y>
+				<X>1520</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -337,7 +337,7 @@
 			<TrafficLight>
 				<Id>1603902091292</Id>
 				<Name><![CDATA[Semáforo8]]></Name>
-				<X>1500</X><Y>860</Y>
+				<X>1580</X><Y>900</Y>
 				<Label><X>0</X><Y>-20</Y></Label>
 				<PublicFlag>false</PublicFlag>
 				<PresentationFlag>true</PresentationFlag>
@@ -363,7 +363,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1604457577351</Id>
 					<Name><![CDATA[cant_cola4]]></Name>
-					<X>2400</X><Y>450</Y>
+					<X>2080</X><Y>310</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -378,7 +378,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1604458329573</Id>
 					<Name><![CDATA[cant_cola3]]></Name>
-					<X>2400</X><Y>420</Y>
+					<X>2080</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -393,7 +393,7 @@
 				<Variable Class="PlainVariable">
 					<Id>1604458332012</Id>
 					<Name><![CDATA[cant_cola2]]></Name>
-					<X>2400</X><Y>390</Y>
+					<X>2080</X><Y>250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -408,7 +408,115 @@
 				<Variable Class="PlainVariable">
 					<Id>1604458336661</Id>
 					<Name><![CDATA[cant_cola1]]></Name>
-					<X>2400</X><Y>360</Y>
+					<X>2080</X><Y>220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604517074092</Id>
+					<Name><![CDATA[suma_tiempo_en_cola_1]]></Name>
+					<X>2450</X><Y>490</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604517090711</Id>
+					<Name><![CDATA[suma_tiempo_en_cola_2]]></Name>
+					<X>2450</X><Y>520</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604517092871</Id>
+					<Name><![CDATA[suma_tiempo_en_cola_3]]></Name>
+					<X>2450</X><Y>550</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604517094882</Id>
+					<Name><![CDATA[suma_tiempo_en_cola_4]]></Name>
+					<X>2450</X><Y>580</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604518832942</Id>
+					<Name><![CDATA[cantidad_pass_1]]></Name>
+					<X>2450</X><Y>610</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604518864603</Id>
+					<Name><![CDATA[cantidad_pass_2]]></Name>
+					<X>2450</X><Y>640</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604518866209</Id>
+					<Name><![CDATA[cantidad_pass_3]]></Name>
+					<X>2450</X><Y>670</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1604518869972</Id>
+					<Name><![CDATA[cantidad_pass_4]]></Name>
+					<X>2450</X><Y>700</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -425,7 +533,7 @@
 				<Connector>
 					<Id>1598979409896</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>1820</X><Y>990</Y>
+					<X>1900</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -460,7 +568,7 @@
 				<Connector>
 					<Id>1598979411970</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1820</X><Y>1080</Y>
+					<X>1900</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -495,7 +603,7 @@
 				<Connector>
 					<Id>1598979414698</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>1820</X><Y>1170</Y>
+					<X>1900</X><Y>1210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -530,7 +638,7 @@
 				<Connector>
 					<Id>1598979416986</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1820</X><Y>1250</Y>
+					<X>1900</X><Y>1290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -566,7 +674,7 @@
 				<Connector>
 					<Id>1600011624069</Id>
 					<Name><![CDATA[connector30]]></Name>
-					<X>840</X><Y>960</Y>
+					<X>920</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -599,7 +707,7 @@
 				<Connector>
 					<Id>1600023136713</Id>
 					<Name><![CDATA[connector31]]></Name>
-					<X>890</X><Y>1100</Y>
+					<X>970</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -632,7 +740,7 @@
 				<Connector>
 					<Id>1600023140493</Id>
 					<Name><![CDATA[connector32]]></Name>
-					<X>890</X><Y>1260</Y>
+					<X>970</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -665,7 +773,7 @@
 				<Connector>
 					<Id>1600023286511</Id>
 					<Name><![CDATA[connector34]]></Name>
-					<X>930</X><Y>1100</Y>
+					<X>1010</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -700,7 +808,7 @@
 				<Connector>
 					<Id>1600023297852</Id>
 					<Name><![CDATA[connector35]]></Name>
-					<X>930</X><Y>1260</Y>
+					<X>1010</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -735,7 +843,7 @@
 				<Connector>
 					<Id>1600029189174</Id>
 					<Name><![CDATA[connector37]]></Name>
-					<X>850</X><Y>1430</Y>
+					<X>930</X><Y>1470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -768,7 +876,7 @@
 				<Connector>
 					<Id>1600029199016</Id>
 					<Name><![CDATA[connector38]]></Name>
-					<X>930</X><Y>1430</Y>
+					<X>1010</X><Y>1470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -803,7 +911,7 @@
 				<Connector>
 					<Id>1603939623780</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>130</X><Y>1080</Y>
+					<X>210</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -836,7 +944,7 @@
 				<Connector>
 					<Id>1603939626483</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>120</X><Y>960</Y>
+					<X>200</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -869,7 +977,7 @@
 				<Connector>
 					<Id>1603939635219</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>140</X><Y>1220</Y>
+					<X>220</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -902,7 +1010,7 @@
 				<Connector>
 					<Id>1603939640715</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>150</X><Y>1370</Y>
+					<X>230</X><Y>1410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -935,7 +1043,7 @@
 				<Connector>
 					<Id>1603939684932</Id>
 					<Name><![CDATA[connector44]]></Name>
-					<X>140</X><Y>960</Y>
+					<X>220</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -968,7 +1076,7 @@
 				<Connector>
 					<Id>1603939688332</Id>
 					<Name><![CDATA[connector45]]></Name>
-					<X>150</X><Y>1080</Y>
+					<X>230</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1001,7 +1109,7 @@
 				<Connector>
 					<Id>1603939690587</Id>
 					<Name><![CDATA[connector46]]></Name>
-					<X>160</X><Y>1220</Y>
+					<X>240</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1034,7 +1142,7 @@
 				<Connector>
 					<Id>1603939693811</Id>
 					<Name><![CDATA[connector47]]></Name>
-					<X>170</X><Y>1370</Y>
+					<X>250</X><Y>1410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1067,7 +1175,7 @@
 				<Connector>
 					<Id>1603982566746</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>1450</X><Y>1190</Y>
+					<X>1530</X><Y>1230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1102,7 +1210,7 @@
 				<Connector>
 					<Id>1603982597182</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>1450</X><Y>1210</Y>
+					<X>1530</X><Y>1250</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1137,7 +1245,7 @@
 				<Connector>
 					<Id>1603982600717</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>1450</X><Y>1230</Y>
+					<X>1530</X><Y>1270</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1172,7 +1280,7 @@
 				<Connector>
 					<Id>1603982603853</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1450</X><Y>1250</Y>
+					<X>1530</X><Y>1290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1205,7 +1313,7 @@
 				<Connector>
 					<Id>1604355742933</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>1650</X><Y>990</Y>
+					<X>1730</X><Y>1030</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1238,7 +1346,7 @@
 				<Connector>
 					<Id>1604355760397</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1650</X><Y>1080</Y>
+					<X>1730</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1271,7 +1379,7 @@
 				<Connector>
 					<Id>1604355766981</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1650</X><Y>1170</Y>
+					<X>1730</X><Y>1210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1304,7 +1412,7 @@
 				<Connector>
 					<Id>1604355773685</Id>
 					<Name><![CDATA[connector43]]></Name>
-					<X>1650</X><Y>1250</Y>
+					<X>1730</X><Y>1290</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1337,7 +1445,7 @@
 				<Connector>
 					<Id>1604356080485</Id>
 					<Name><![CDATA[connector53]]></Name>
-					<X>1360</X><Y>1190</Y>
+					<X>1440</X><Y>1230</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1370,7 +1478,7 @@
 				<Connector>
 					<Id>1604356207069</Id>
 					<Name><![CDATA[connector48]]></Name>
-					<X>1460</X><Y>1500</Y>
+					<X>1540</X><Y>1540</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1405,7 +1513,7 @@
 				<Connector>
 					<Id>1604356213333</Id>
 					<Name><![CDATA[connector49]]></Name>
-					<X>1460</X><Y>1520</Y>
+					<X>1540</X><Y>1560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1440,7 +1548,7 @@
 				<Connector>
 					<Id>1604356218636</Id>
 					<Name><![CDATA[connector50]]></Name>
-					<X>1460</X><Y>1540</Y>
+					<X>1540</X><Y>1580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1475,7 +1583,7 @@
 				<Connector>
 					<Id>1604356230580</Id>
 					<Name><![CDATA[connector51]]></Name>
-					<X>1460</X><Y>1560</Y>
+					<X>1540</X><Y>1600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1510,7 +1618,7 @@
 				<Connector>
 					<Id>1604356282974</Id>
 					<Name><![CDATA[connector54]]></Name>
-					<X>130</X><Y>970</Y>
+					<X>210</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1544,7 +1652,7 @@
 				<Connector>
 					<Id>1604356297206</Id>
 					<Name><![CDATA[connector55]]></Name>
-					<X>140</X><Y>1090</Y>
+					<X>220</X><Y>1130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1579,7 +1687,7 @@
 				<Connector>
 					<Id>1604356307213</Id>
 					<Name><![CDATA[connector56]]></Name>
-					<X>150</X><Y>1230</Y>
+					<X>230</X><Y>1270</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1613,7 +1721,7 @@
 				<Connector>
 					<Id>1604356317350</Id>
 					<Name><![CDATA[connector57]]></Name>
-					<X>160</X><Y>1380</Y>
+					<X>240</X><Y>1420</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1647,7 +1755,7 @@
 				<Connector>
 					<Id>1604356878324</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>270</X><Y>960</Y>
+					<X>350</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1680,7 +1788,7 @@
 				<Connector>
 					<Id>1604356892643</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>270</X><Y>980</Y>
+					<X>350</X><Y>1020</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1715,7 +1823,7 @@
 				<Connector>
 					<Id>1604356898948</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>270</X><Y>1000</Y>
+					<X>350</X><Y>1040</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1750,7 +1858,7 @@
 				<Connector>
 					<Id>1604356906325</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>270</X><Y>1020</Y>
+					<X>350</X><Y>1060</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1785,7 +1893,7 @@
 				<Connector>
 					<Id>1604356925364</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>270</X><Y>1080</Y>
+					<X>350</X><Y>1120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1820,7 +1928,7 @@
 				<Connector>
 					<Id>1604356930676</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>270</X><Y>1100</Y>
+					<X>350</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1853,7 +1961,7 @@
 				<Connector>
 					<Id>1604356936844</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>270</X><Y>1120</Y>
+					<X>350</X><Y>1160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1888,7 +1996,7 @@
 				<Connector>
 					<Id>1604356944844</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>270</X><Y>1140</Y>
+					<X>350</X><Y>1180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1923,7 +2031,7 @@
 				<Connector>
 					<Id>1604356950700</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>270</X><Y>1220</Y>
+					<X>350</X><Y>1260</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1958,7 +2066,7 @@
 				<Connector>
 					<Id>1604356955755</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>270</X><Y>1240</Y>
+					<X>350</X><Y>1280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -1993,7 +2101,7 @@
 				<Connector>
 					<Id>1604356959164</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>270</X><Y>1260</Y>
+					<X>350</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2026,7 +2134,7 @@
 				<Connector>
 					<Id>1604356964892</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>270</X><Y>1280</Y>
+					<X>350</X><Y>1320</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2061,7 +2169,7 @@
 				<Connector>
 					<Id>1604356969604</Id>
 					<Name><![CDATA[connector39]]></Name>
-					<X>270</X><Y>1370</Y>
+					<X>350</X><Y>1410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2096,7 +2204,7 @@
 				<Connector>
 					<Id>1604356976484</Id>
 					<Name><![CDATA[connector40]]></Name>
-					<X>270</X><Y>1390</Y>
+					<X>350</X><Y>1430</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2131,7 +2239,7 @@
 				<Connector>
 					<Id>1604356984117</Id>
 					<Name><![CDATA[connector41]]></Name>
-					<X>270</X><Y>1410</Y>
+					<X>350</X><Y>1450</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2166,7 +2274,7 @@
 				<Connector>
 					<Id>1604356988637</Id>
 					<Name><![CDATA[connector42]]></Name>
-					<X>270</X><Y>1430</Y>
+					<X>350</X><Y>1470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2199,7 +2307,7 @@
 				<Connector>
 					<Id>1600023280825</Id>
 					<Name><![CDATA[connector33]]></Name>
-					<X>930</X><Y>960</Y>
+					<X>1010</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2234,7 +2342,7 @@
 				<Connector>
 					<Id>1604357866318</Id>
 					<Name><![CDATA[connector52]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>80</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2267,7 +2375,7 @@
 				<Connector>
 					<Id>1604357866319</Id>
 					<Name><![CDATA[connector58]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>80</X><Y>40</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2300,7 +2408,7 @@
 				<Connector>
 					<Id>1604357933981</Id>
 					<Name><![CDATA[connector59]]></Name>
-					<X>930</X><Y>960</Y>
+					<X>1010</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2335,7 +2443,7 @@
 				<Connector>
 					<Id>1604450688937</Id>
 					<Name><![CDATA[connector60]]></Name>
-					<X>50</X><Y>1140</Y>
+					<X>130</X><Y>1180</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2370,7 +2478,7 @@
 				<Connector>
 					<Id>1604510478568</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>750</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2388,7 +2496,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput]]></ItemName>
+						<ItemName><![CDATA[pass_1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2396,14 +2504,14 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>670</X><Y>960</Y></Point>
-						<Point><X>730</X><Y>960</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510478571</Id>
 					<Name><![CDATA[connector61]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>830</X><Y>1000</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2411,7 +2519,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput]]></ItemName>
+						<ItemName><![CDATA[pass_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2429,14 +2537,14 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>750</X><Y>960</Y></Point>
-						<Point><X>800</X><Y>960</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510485086</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>880</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2454,7 +2562,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput1]]></ItemName>
+						<ItemName><![CDATA[pass_2]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2462,14 +2570,14 @@
 						<ItemName><![CDATA[outT]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>800</X><Y>1100</Y></Point>
-						<Point><X>750</X><Y>1100</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510485088</Id>
 					<Name><![CDATA[connector62]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>810</X><Y>1140</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2477,7 +2585,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput1]]></ItemName>
+						<ItemName><![CDATA[pass_2]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2495,14 +2603,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>730</X><Y>1100</Y></Point>
-						<Point><X>670</X><Y>1099</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>-1</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510491852</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>880</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2520,7 +2628,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput2]]></ItemName>
+						<ItemName><![CDATA[pass_3]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2528,14 +2636,14 @@
 						<ItemName><![CDATA[outT]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>800</X><Y>1260</Y></Point>
-						<Point><X>750</X><Y>1260</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-50</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510491854</Id>
 					<Name><![CDATA[connector63]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>810</X><Y>1300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2543,7 +2651,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput2]]></ItemName>
+						<ItemName><![CDATA[pass_3]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2561,14 +2669,14 @@
 						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>730</X><Y>1260</Y></Point>
-						<Point><X>670</X><Y>1259</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>-60</X><Y>-1</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510495326</Id>
 					<Name><![CDATA[connector36]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>750</X><Y>1469</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2586,7 +2694,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput3]]></ItemName>
+						<ItemName><![CDATA[pass_4]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2594,14 +2702,14 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>670</X><Y>1429</Y></Point>
-						<Point><X>730</X><Y>1430</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>60</X><Y>1</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510495328</Id>
 					<Name><![CDATA[connector64]]></Name>
-					<X>0</X><Y>0</Y>
+					<X>830</X><Y>1470</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2609,7 +2717,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput3]]></ItemName>
+						<ItemName><![CDATA[pass_4]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2627,14 +2735,14 @@
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
-						<Point><X>750</X><Y>1430</Y></Point>
-						<Point><X>810</X><Y>1430</Y></Point>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>60</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1604510717839</Id>
 					<Name><![CDATA[connector65]]></Name>
-					<X>740</X><Y>970</Y>
+					<X>820</X><Y>1010</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2642,7 +2750,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput]]></ItemName>
+						<ItemName><![CDATA[pass_1]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2670,7 +2778,7 @@
 				<Connector>
 					<Id>1604510724269</Id>
 					<Name><![CDATA[connector66]]></Name>
-					<X>740</X><Y>1110</Y>
+					<X>820</X><Y>1150</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2678,7 +2786,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput1]]></ItemName>
+						<ItemName><![CDATA[pass_2]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2706,7 +2814,7 @@
 				<Connector>
 					<Id>1604510730533</Id>
 					<Name><![CDATA[connector67]]></Name>
-					<X>740</X><Y>1270</Y>
+					<X>820</X><Y>1310</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2714,7 +2822,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput2]]></ItemName>
+						<ItemName><![CDATA[pass_3]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2742,7 +2850,7 @@
 				<Connector>
 					<Id>1604510739005</Id>
 					<Name><![CDATA[connector68]]></Name>
-					<X>740</X><Y>1440</Y>
+					<X>820</X><Y>1480</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2750,7 +2858,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[simulador_alto_rosario_estacionamiento]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[selectOutput3]]></ItemName>
+						<ItemName><![CDATA[pass_4]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2780,7 +2888,7 @@
 				<Event>
 					<Id>1604457622498</Id>
 					<Name><![CDATA[evento_cola4]]></Name>
-					<X>2280</X><Y>450</Y>
+					<X>2080</X><Y>190</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2811,7 +2919,7 @@
 				<Event>
 					<Id>1604458329578</Id>
 					<Name><![CDATA[evento_cola2]]></Name>
-					<X>2280</X><Y>390</Y>
+					<X>2080</X><Y>130</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2842,7 +2950,7 @@
 				<Event>
 					<Id>1604458332015</Id>
 					<Name><![CDATA[evento_cola3]]></Name>
-					<X>2280</X><Y>420</Y>
+					<X>2080</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2873,7 +2981,7 @@
 				<Event>
 					<Id>1604458336664</Id>
 					<Name><![CDATA[evento_cola1]]></Name>
-					<X>2280</X><Y>360</Y>
+					<X>2080</X><Y>100</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2901,12 +3009,152 @@
 					</Properties>
 					<Action><![CDATA[cant_cola1=count(move_entrada_1.getCars(),c->cola_entrada1.contains(c.getX(),c.getY()))]]></Action>
 				</Event>
+				<Event>
+					<Id>1604517248082</Id>
+					<Name><![CDATA[calcular_tiempo_cola1]]></Name>
+					<X>2580</X><Y>610</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1604563200000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[for(autito a: move_entrada_1.getCars()){
+	if(cola_entrada1.contains(a.getX(),a.getY())){
+		a.tiempo_en_cola ++;
+	}
+}]]></Action>
+				</Event>
+				<Event>
+					<Id>1604517394859</Id>
+					<Name><![CDATA[calcular_tiempo_cola2]]></Name>
+					<X>2580</X><Y>640</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1604563200000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[for(autito a: move_entrada_2.getCars()){
+	if(cola_entrada2.contains(a.getX(),a.getY())){
+		a.tiempo_en_cola ++;
+	}
+}]]></Action>
+				</Event>
+				<Event>
+					<Id>1604517399446</Id>
+					<Name><![CDATA[calcular_tiempo_cola3]]></Name>
+					<X>2580</X><Y>670</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1604563200000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[for(autito a: move_entrada_3.getCars()){
+	if(cola_entrada3.contains(a.getX(),a.getY())){
+		a.tiempo_en_cola ++;
+	}
+}]]></Action>
+				</Event>
+				<Event>
+					<Id>1604517401977</Id>
+					<Name><![CDATA[calcular_tiempo_cola4]]></Name>
+					<X>2580</X><Y>700</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties TriggerType="rate" Mode="occuresOnce">
+						<Timeout Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</Timeout>
+						<Rate Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="RateUnits"><![CDATA[PER_SECOND]]></Unit>
+						</Rate>
+						<OccurrenceAtTime>true</OccurrenceAtTime>
+						<OccurrenceDate>1604563200000</OccurrenceDate>
+						<OccurrenceTime Class="CodeUnitValue">
+							<Code><![CDATA[0]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</OccurrenceTime>
+						<RecurrenceCode Class="CodeUnitValue">
+							<Code><![CDATA[1]]></Code>
+							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+						</RecurrenceCode>
+						<Condition><![CDATA[false]]></Condition>
+					</Properties>
+					<Action><![CDATA[for(autito a: move_entrada_4.getCars()){
+	if(cola_entrada4.contains(a.getX(),a.getY())){
+		a.tiempo_en_cola ++;
+	}
+}]]></Action>
+				</Event>
 			</Events>
 			<AnalysisData>
     			<Statistics>
 					<Id>1604502188092</Id>
 					<Name><![CDATA[promedio_cant_cola4]]></Name>
-					<X>2810</X><Y>350</Y>
+					<X>2530</X><Y>110</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2928,7 +3176,7 @@
     			<Statistics>
 					<Id>1604502706720</Id>
 					<Name><![CDATA[promedio_cant_cola3]]></Name>
-					<X>2810</X><Y>380</Y>
+					<X>2530</X><Y>140</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2950,7 +3198,7 @@
     			<Statistics>
 					<Id>1604502709649</Id>
 					<Name><![CDATA[promedio_cant_cola2]]></Name>
-					<X>2810</X><Y>410</Y>
+					<X>2530</X><Y>170</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2972,7 +3220,7 @@
     			<Statistics>
 					<Id>1604502712433</Id>
 					<Name><![CDATA[promedio_cant_cola1]]></Name>
-					<X>2810</X><Y>440</Y>
+					<X>2530</X><Y>200</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3018,7 +3266,7 @@
 				<EmbeddedObject>
 					<Id>1598910330429</Id>
 					<Name><![CDATA[source_Alberdi]]></Name>
-					<X>20</X><Y>960</Y>
+					<X>100</X><Y>1000</Y>
 					<Label><X>-15</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3230,7 +3478,7 @@
 				<EmbeddedObject>
 					<Id>1598910339395</Id>
 					<Name><![CDATA[source_Avellaneda]]></Name>
-					<X>20</X><Y>1080</Y>
+					<X>100</X><Y>1120</Y>
 					<Label><X>-15</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3442,7 +3690,7 @@
 				<EmbeddedObject>
 					<Id>1598910344441</Id>
 					<Name><![CDATA[source_Estanislao_López]]></Name>
-					<X>20</X><Y>1220</Y>
+					<X>100</X><Y>1260</Y>
 					<Label><X>-15</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3654,7 +3902,7 @@
 				<EmbeddedObject>
 					<Id>1598974070149</Id>
 					<Name><![CDATA[select_Alberdi]]></Name>
-					<X>240</X><Y>950</Y>
+					<X>320</X><Y>990</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3724,27 +3972,15 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=1]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=2]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=3]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=4]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -3792,7 +4028,7 @@
 				<EmbeddedObject>
 					<Id>1598974072283</Id>
 					<Name><![CDATA[select_Avellaneda]]></Name>
-					<X>240</X><Y>1070</Y>
+					<X>320</X><Y>1110</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3862,27 +4098,15 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=1]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=2]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=3]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=4]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -3930,7 +4154,7 @@
 				<EmbeddedObject>
 					<Id>1598974076831</Id>
 					<Name><![CDATA[select_Estanislao_López]]></Name>
-					<X>240</X><Y>1210</Y>
+					<X>320</X><Y>1250</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4000,27 +4224,15 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=1]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=2]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=3]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=4]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -4068,7 +4280,7 @@
 				<EmbeddedObject>
 					<Id>1598974103069</Id>
 					<Name><![CDATA[move_entrada_1]]></Name>
-					<X>630</X><Y>950</Y>
+					<X>710</X><Y>990</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4170,7 +4382,7 @@
 				<EmbeddedObject>
 					<Id>1598974112092</Id>
 					<Name><![CDATA[move_entrada_2]]></Name>
-					<X>630</X><Y>1089</Y>
+					<X>710</X><Y>1129</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4272,7 +4484,7 @@
 				<EmbeddedObject>
 					<Id>1598974114765</Id>
 					<Name><![CDATA[move_entrada_3]]></Name>
-					<X>630</X><Y>1249</Y>
+					<X>710</X><Y>1289</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4374,7 +4586,7 @@
 				<EmbeddedObject>
 					<Id>1598978125559</Id>
 					<Name><![CDATA[source_Arturo_Illia]]></Name>
-					<X>20</X><Y>1370</Y>
+					<X>100</X><Y>1410</Y>
 					<Label><X>-15</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4586,7 +4798,7 @@
 				<EmbeddedObject>
 					<Id>1598978143568</Id>
 					<Name><![CDATA[select_Arturo_Illia]]></Name>
-					<X>240</X><Y>1360</Y>
+					<X>320</X><Y>1400</Y>
 					<Label><X>-30</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4656,27 +4868,15 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=1]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=2]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=3]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.entrada_elegida=4]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -4724,7 +4924,7 @@
 				<EmbeddedObject>
 					<Id>1598979235562</Id>
 					<Name><![CDATA[select_destino_1]]></Name>
-					<X>1420</X><Y>1180</Y>
+					<X>1500</X><Y>1220</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4847,7 +5047,7 @@
 				<EmbeddedObject>
 					<Id>1598979246116</Id>
 					<Name><![CDATA[move_Alberdi]]></Name>
-					<X>1780</X><Y>980</Y>
+					<X>1860</X><Y>1020</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4943,7 +5143,7 @@
 				<EmbeddedObject>
 					<Id>1598979248437</Id>
 					<Name><![CDATA[move_Avellaneda]]></Name>
-					<X>1780</X><Y>1070</Y>
+					<X>1860</X><Y>1110</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5039,7 +5239,7 @@
 				<EmbeddedObject>
 					<Id>1598979251075</Id>
 					<Name><![CDATA[move_Estanislao_Lópex]]></Name>
-					<X>1780</X><Y>1160</Y>
+					<X>1860</X><Y>1200</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5135,7 +5335,7 @@
 				<EmbeddedObject>
 					<Id>1598979253713</Id>
 					<Name><![CDATA[move_Arturo_Illia]]></Name>
-					<X>1780</X><Y>1240</Y>
+					<X>1860</X><Y>1280</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5231,7 +5431,7 @@
 				<EmbeddedObject>
 					<Id>1598979406005</Id>
 					<Name><![CDATA[carDispose]]></Name>
-					<X>2010</X><Y>1130</Y>
+					<X>2090</X><Y>1170</Y>
 					<Label><X>-30</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5294,7 +5494,7 @@
 				<EmbeddedObject>
 					<Id>1600011612343</Id>
 					<Name><![CDATA[delay1]]></Name>
-					<X>800</X><Y>940</Y>
+					<X>880</X><Y>980</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5394,7 +5594,7 @@
 				<EmbeddedObject>
 					<Id>1600011792703</Id>
 					<Name><![CDATA[continue_entrada_1]]></Name>
-					<X>890</X><Y>950</Y>
+					<X>970</X><Y>990</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5493,7 +5693,7 @@
 				<EmbeddedObject>
 					<Id>1600023001808</Id>
 					<Name><![CDATA[delay2]]></Name>
-					<X>800</X><Y>1080</Y>
+					<X>880</X><Y>1120</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5593,7 +5793,7 @@
 				<EmbeddedObject>
 					<Id>1600023007181</Id>
 					<Name><![CDATA[delay3]]></Name>
-					<X>800</X><Y>1240</Y>
+					<X>880</X><Y>1280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5693,7 +5893,7 @@
 				<EmbeddedObject>
 					<Id>1600023118939</Id>
 					<Name><![CDATA[continue_entrada_2]]></Name>
-					<X>890</X><Y>1090</Y>
+					<X>970</X><Y>1130</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5792,7 +5992,7 @@
 				<EmbeddedObject>
 					<Id>1600023120267</Id>
 					<Name><![CDATA[continue_entrada_3]]></Name>
-					<X>890</X><Y>1250</Y>
+					<X>970</X><Y>1290</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5891,7 +6091,7 @@
 				<EmbeddedObject>
 					<Id>1600029150187</Id>
 					<Name><![CDATA[move_entrada_4]]></Name>
-					<X>630</X><Y>1419</Y>
+					<X>710</X><Y>1459</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5993,7 +6193,7 @@
 				<EmbeddedObject>
 					<Id>1600029150202</Id>
 					<Name><![CDATA[delay4]]></Name>
-					<X>810</X><Y>1410</Y>
+					<X>890</X><Y>1450</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6093,7 +6293,7 @@
 				<EmbeddedObject>
 					<Id>1600029150218</Id>
 					<Name><![CDATA[continue_entrada_4]]></Name>
-					<X>890</X><Y>1420</Y>
+					<X>970</X><Y>1460</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6192,7 +6392,7 @@
 				<EmbeddedObject>
 					<Id>1603939600630</Id>
 					<Name><![CDATA[select_Estacionar]]></Name>
-					<X>110</X><Y>950</Y>
+					<X>190</X><Y>990</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6276,7 +6476,7 @@
 				<EmbeddedObject>
 					<Id>1603939619812</Id>
 					<Name><![CDATA[select_Estacionar2]]></Name>
-					<X>120</X><Y>1070</Y>
+					<X>200</X><Y>1110</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6360,7 +6560,7 @@
 				<EmbeddedObject>
 					<Id>1603939631010</Id>
 					<Name><![CDATA[select_Estacionar3]]></Name>
-					<X>130</X><Y>1210</Y>
+					<X>210</X><Y>1250</Y>
 					<Label><X>-20</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6444,7 +6644,7 @@
 				<EmbeddedObject>
 					<Id>1603939637908</Id>
 					<Name><![CDATA[select_Estacionar4]]></Name>
-					<X>140</X><Y>1360</Y>
+					<X>220</X><Y>1400</Y>
 					<Label><X>-15</X><Y>-5</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6528,7 +6728,7 @@
 				<EmbeddedObject>
 					<Id>1603984073226</Id>
 					<Name><![CDATA[carEnter__entrada4]]></Name>
-					<X>1610</X><Y>980</Y>
+					<X>1690</X><Y>1020</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6630,7 +6830,7 @@
 				<EmbeddedObject>
 					<Id>1603984073235</Id>
 					<Name><![CDATA[carEnter__entrada1_3]]></Name>
-					<X>1610</X><Y>1070</Y>
+					<X>1690</X><Y>1110</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6732,7 +6932,7 @@
 				<EmbeddedObject>
 					<Id>1603984073244</Id>
 					<Name><![CDATA[carEnter__entrada1_4]]></Name>
-					<X>1610</X><Y>1160</Y>
+					<X>1690</X><Y>1200</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6834,7 +7034,7 @@
 				<EmbeddedObject>
 					<Id>1603984073252</Id>
 					<Name><![CDATA[carEnter__entrada5]]></Name>
-					<X>1610</X><Y>1240</Y>
+					<X>1690</X><Y>1280</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6936,7 +7136,7 @@
 				<EmbeddedObject>
 					<Id>1604356048866</Id>
 					<Name><![CDATA[carExit]]></Name>
-					<X>1100</X><Y>1180</Y>
+					<X>1180</X><Y>1220</Y>
 					<Label><X>0</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -6999,7 +7199,7 @@
 				<EmbeddedObject>
 					<Id>1604356076620</Id>
 					<Name><![CDATA[estacionamiento]]></Name>
-					<X>1320</X><Y>1170</Y>
+					<X>1400</X><Y>1210</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7029,7 +7229,7 @@
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[300]]></Code>
+								<Code><![CDATA[550]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7102,7 +7302,7 @@
 				<EmbeddedObject>
 					<Id>1604356132578</Id>
 					<Name><![CDATA[select_destino_2]]></Name>
-					<X>1430</X><Y>1490</Y>
+					<X>1510</X><Y>1530</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7225,7 +7425,7 @@
 				<EmbeddedObject>
 					<Id>1604357831076</Id>
 					<Name><![CDATA[moveTo]]></Name>
-					<X>1210</X><Y>1170</Y>
+					<X>1290</X><Y>1210</Y>
 					<Label><X>-10</X><Y>-10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7384,7 +7584,7 @@
 				<EmbeddedObject>
 					<Id>1604450667210</Id>
 					<Name><![CDATA[source_Junin]]></Name>
-					<X>20</X><Y>1140</Y>
+					<X>100</X><Y>1180</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -7595,9 +7795,9 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1604510476345</Id>
-					<Name><![CDATA[selectOutput]]></Name>
-					<X>720</X><Y>950</Y>
-					<Label><X>-25</X><Y>-20</Y></Label>
+					<Name><![CDATA[pass_1]]></Name>
+					<X>800</X><Y>990</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -7622,7 +7822,7 @@
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[estacionamiento.size() < 100]]></Code>
+								<Code><![CDATA[estacionamiento.size() < 500]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7633,6 +7833,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[suma_tiempo_en_cola_1 += agent.tiempo_en_cola;
+cantidad_pass_1 ++;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
@@ -7682,9 +7886,9 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1604510483738</Id>
-					<Name><![CDATA[selectOutput1]]></Name>
-					<X>720</X><Y>1090</Y>
-					<Label><X>-25</X><Y>-20</Y></Label>
+					<Name><![CDATA[pass_2]]></Name>
+					<X>800</X><Y>1130</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -7709,7 +7913,7 @@
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[estacionamiento.size() < 100]]></Code>
+								<Code><![CDATA[estacionamiento.size() < 500]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7720,6 +7924,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[suma_tiempo_en_cola_2 += agent.tiempo_en_cola;
+cantidad_pass_2 ++;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
@@ -7769,9 +7977,9 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1604510490701</Id>
-					<Name><![CDATA[selectOutput2]]></Name>
-					<X>720</X><Y>1250</Y>
-					<Label><X>-25</X><Y>-20</Y></Label>
+					<Name><![CDATA[pass_3]]></Name>
+					<X>800</X><Y>1290</Y>
+					<Label><X>0</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -7796,7 +8004,7 @@
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[estacionamiento.size() < 100]]></Code>
+								<Code><![CDATA[estacionamiento.size() < 500]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7807,6 +8015,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[suma_tiempo_en_cola_3 += agent.tiempo_en_cola;
+cantidad_pass_3 ++;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
@@ -7856,9 +8068,9 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1604510492851</Id>
-					<Name><![CDATA[selectOutput3]]></Name>
-					<X>720</X><Y>1420</Y>
-					<Label><X>-25</X><Y>-20</Y></Label>
+					<Name><![CDATA[pass_4]]></Name>
+					<X>800</X><Y>1460</Y>
+					<Label><X>5</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
@@ -7883,7 +8095,7 @@
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[estacionamiento.size() < 100]]></Code>
+								<Code><![CDATA[estacionamiento.size() < 500]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7894,6 +8106,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[suma_tiempo_en_cola_4 += agent.tiempo_en_cola;
+cantidad_pass_4 ++;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
@@ -17156,7 +17372,7 @@
 					<X>825</X><Y>390</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17193,7 +17409,7 @@
 					<X>785</X><Y>410</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17230,7 +17446,7 @@
 					<X>655</X><Y>415</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17267,7 +17483,7 @@
 					<X>833</X><Y>358</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17325,7 +17541,7 @@
 				<RectangleNode>
 					<Id>1604357757196</Id>
 					<Name><![CDATA[estacionamiento_falso]]></Name>
-					<X>2220</X><Y>0</Y>
+					<X>2760</X><Y>740</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17445,7 +17661,7 @@
     			<BarChart>
 					<Id>1604447720182</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>1560</X><Y>320</Y>
+					<X>1720</X><Y>460</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17522,7 +17738,7 @@
 				<Control Type="Window3D">
 					<Id>1604451029528</Id>
 					<Name><![CDATA[window3d]]></Name>
-					<X>1560</X><Y>0</Y>
+					<X>2880</X><Y>40</Y>
 					<Width>500</Width>
 					<Height>300</Height>
 					<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -17538,7 +17754,7 @@
 					<X>827</X><Y>331</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17663,7 +17879,7 @@
     			<BarChart>
 					<Id>1604459188424</Id>
 					<Name><![CDATA[chart1]]></Name>
-					<X>2480</X><Y>300</Y>
+					<X>2200</X><Y>60</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17740,7 +17956,7 @@
     			<TimePlot>
 					<Id>1604463619048</Id>
 					<Name><![CDATA[plot]]></Name>
-					<X>1880</X><Y>300</Y>
+					<X>1680</X><Y>40</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17836,7 +18052,7 @@
 					<X>836</X><Y>415</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -17963,7 +18179,7 @@
 					<X>796</X><Y>431</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -18089,7 +18305,7 @@
 					<X>601</X><Y>456</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
+					<PresentationFlag>false</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
@@ -18213,7 +18429,7 @@
     			<BarChart>
 					<Id>1604510638782</Id>
 					<Name><![CDATA[chart2]]></Name>
-					<X>1580</X><Y>680</Y>
+					<X>2480</X><Y>720</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18262,10 +18478,87 @@
 						<Title><![CDATA[Cantidad de vehículos en estacionamiento]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[500]]></ScaleToExpression>
+					<ScaleType>FIXED</ScaleType>
+					<Bars>
+						<Direction>RIGHT</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<BarChart>
+					<Id>1604518064530</Id>
+					<Name><![CDATA[chart3]]></Name>
+					<X>2080</X><Y>440</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604563200000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[300]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>370</Width>
+					<Height>420</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>30</XOffset>
+						<YOffset>30</YOffset>
+						<Width>320</Width>
+						<Height>290</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>90</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[suma_tiempo_en_cola_1 / cantidad_pass_1]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Tiempo promedio en cola de entrada 1]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[suma_tiempo_en_cola_2 / cantidad_pass_2]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Tiempo promedio en cola de entrada Central Argentino]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[suma_tiempo_en_cola_3 / cantidad_pass_3]]></Expression>
+					<Color>-10496</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Tiempo promedio en cola de entrada Teddy]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[suma_tiempo_en_cola_4 / cantidad_pass_4]]></Expression>
+					<Color>-65536</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Tiempo promedio en cola de entrada Junín]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
 					<Bars>
-						<Direction>RIGHT</Direction>
+						<Direction>UP</Direction>
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</BarChart>
@@ -18910,42 +19203,18 @@
 			<ConnectionsId>1598910363835</ConnectionsId>
 			<Variables>
 				<Variable Class="PlainVariable">
-					<Id>1604456500639</Id>
-					<Name><![CDATA[entrada_elegida]]></Name>
-					<X>50</X><Y>30</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[int]]></Type>        
-						<InitialValue Class="CodeValue">
-							<Code><![CDATA[-1]]></Code>
-						</InitialValue>
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
 					<Id>1604456686607</Id>
-					<Name><![CDATA[tiempo_entrada_inicial]]></Name>
-					<X>50</X><Y>60</Y>
+					<Name><![CDATA[tiempo_en_cola]]></Name>
+					<X>30</X><Y>30</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
-					</Properties>
-				</Variable>
-				<Variable Class="PlainVariable">
-					<Id>1604456688719</Id>
-					<Name><![CDATA[tiempo_entrada_final]]></Name>
-					<X>50</X><Y>90</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
 					</Properties>
 				</Variable>
 			</Variables>
