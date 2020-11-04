@@ -123,23 +123,16 @@
 				<Line>1598908891543</Line>
 				<Line>1598978019734</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
 				<State>GREEN</State>
 				<State>RED</State>
-				<State>RED</State>
-				<State>RED</State>
 				<State>GREEN</State>
-				<State>RED</State>
 				<State>RED</State>
 				<State>RED</State>
 				<State>GREEN</State>
@@ -157,10 +150,10 @@
 				<Line>1603748823508</Line>
 				<Line>1603748823509</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
@@ -184,13 +177,13 @@
 				<Line>1601413057150</Line>
 				<Line>1600037295927</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
@@ -223,35 +216,19 @@
 				<Line>1598910508582</Line>
 				<Line>1603748900897</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
-				</Duration>
-				<DefaultState>RED</DefaultState>
-				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
 				<State>GREEN</State>
-				<State>RED</State>
-				<State>RED</State>
-				<State>RED</State>
-				<State>RED</State>
 				<State>RED</State>
 				<State>GREEN</State>
 				<State>RED</State>
 				<State>RED</State>
 				<State>GREEN</State>
-				<State>RED</State>
-				<State>RED</State>
-				<State>RED</State>
-				<State>RED</State>
 				<State>RED</State>
 				<State>GREEN</State>
 			</TrafficLight>
@@ -271,13 +248,13 @@
 				<Line>1598974757336</Line>
 				<Line>1598907197699</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
@@ -313,26 +290,18 @@
 				<Line>1603748881332</Line>
 				<Line>1603748900883</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
-				</Duration>
-				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
-				<DefaultState>RED</DefaultState>
 				<State>GREEN</State>
 				<State>RED</State>
 				<State>RED</State>
-				<State>RED</State>
 				<State>GREEN</State>
-				<State>RED</State>
 				<State>GREEN</State>
-				<State>RED</State>
-				<State>RED</State>
 				<State>RED</State>
 				<State>RED</State>
 				<State>GREEN</State>
@@ -351,10 +320,10 @@
 				<Line>1601409958781</Line>
 				<Line>1601409984192</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
@@ -378,10 +347,10 @@
 				<Line>1600008857281</Line>
 				<Line>1598976179084</Line>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<Duration Class="CodeValue">
-					<Code><![CDATA[30]]></Code>
+					<Code><![CDATA[45]]></Code>
 				</Duration>
 				<DefaultState>RED</DefaultState>
 				<DefaultState>RED</DefaultState>
@@ -2687,7 +2656,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[1500]]></Code>
+								<Code><![CDATA[1200]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -2891,7 +2860,7 @@
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[900]]></Code>
+								<Code><![CDATA[1200]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -5580,7 +5549,7 @@
 						<Parameter>
 							<Name><![CDATA[probability]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.25]]></Code>
+								<Code><![CDATA[0.3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5748,7 +5717,7 @@
 						<Parameter>
 							<Name><![CDATA[probability]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.25]]></Code>
+								<Code><![CDATA[0.2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -5832,7 +5801,7 @@
 						<Parameter>
 							<Name><![CDATA[probability]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[0.25]]></Code>
+								<Code><![CDATA[0.4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -7443,120 +7412,6 @@
 						<Point><X>17.227768928496403</X><Y>21.486421772129177</Y></Point>
 						<Point><X>7.2288661415784645</X><Y>21.634553665268697</Y></Point>
 						<Point><X>-12.25252971712672</X><Y>54.69826319256873</Y></Point>
-					</Points>
-					<SourceLane>1</SourceLane>
-					<TargetLane>1</TargetLane>
-				</LaneConnector>
-				<LaneConnector SourceId="1603982831646" TargetId="1603982831646">
-					<Id>1603982831652</Id>
-					<Name><![CDATA[laneConnector11]]></Name>
-					<X>397.79052971712673</X><Y>284.74873680743127</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-12.25252971712672</X><Y>54.69826319256873</Y></Point>
-						<Point><X>-2.0340353684136403</X><Y>9.790949908974198</Y></Point>
-						<Point><X>4.837881131493134</X><Y>1.0050527702749719</Y></Point>
-						<Point><X>2.8038457630794937</X><Y>10.79600267924917</Y></Point>
-						<Point><X>-12.25252971712672</X><Y>54.69826319256873</Y></Point>
-					</Points>
-					<SourceLane>1</SourceLane>
-					<TargetLane>0</TargetLane>
-				</LaneConnector>
-				<LaneConnector SourceId="1603982831646" TargetId="1603982831646">
-					<Id>1603982831653</Id>
-					<Name><![CDATA[laneConnector15]]></Name>
-					<X>397.79052971712673</X><Y>284.74873680743127</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-12.25252971712672</X><Y>54.69826319256873</Y></Point>
-						<Point><X>-2.0340353684136403</X><Y>9.790949908974198</Y></Point>
-						<Point><X>2.4189405657465386</X><Y>0.5025263851374575</Y></Point>
-						<Point><X>0.3849051973328983</X><Y>10.293476294111713</Y></Point>
-						<Point><X>-12.25252971712672</X><Y>54.69826319256873</Y></Point>
-					</Points>
-					<SourceLane>1</SourceLane>
-					<TargetLane>1</TargetLane>
-				</LaneConnector>
-				<LaneConnector SourceId="1603982831646" TargetId="1598907248538">
-					<Id>1603982831654</Id>
-					<Name><![CDATA[laneConnector19]]></Name>
-					<X>395.37158915138014</X><Y>284.24621042229376</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-9.833589151380124</X><Y>55.200789577706246</Y></Point>
-						<Point><X>-2.0340353684136403</X><Y>9.790949908974198</Y></Point>
-						<Point><X>-35.01988789435603</X><Y>6.968153332975362</Y></Point>
-						<Point><X>-29.3928214923597</X><Y>15.234719954464822</Y></Point>
-						<Point><X>-35.01988789435603</X><Y>6.968153332975362</Y></Point>
-						<Point><X>-39.3080968151811</X><Y>0.6684649699075749</Y></Point>
-						<Point><X>-39.3080968151811</X><Y>0.6684649699075749</Y></Point>
-						<Point><X>-9.833589151380124</X><Y>55.200789577706246</Y></Point>
-					</Points>
-					<SourceLane>0</SourceLane>
-					<TargetLane>0</TargetLane>
-				</LaneConnector>
-				<LaneConnector SourceId="1598907248538" TargetId="1603982831646">
-					<Id>1603982831655</Id>
-					<Name><![CDATA[laneConnector32]]></Name>
-					<X>351.97883588793366</X><Y>287.69510820259956</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>33.559164112066355</X><Y>51.75189179740045</Y></Point>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>4.878023657815959</X><Y>7.166168775657411</Y></Point>
-						<Point><X>4.878023657815959</X><Y>7.166168775657411</Y></Point>
-						<Point><X>10.50509005981229</X><Y>15.432735397146928</Y></Point>
-						<Point><X>50.64957496068621</X><Y>-1.941318624893313</Y></Point>
-						<Point><X>48.61553959227257</X><Y>7.8496312840808855</Y></Point>
-						<Point><X>33.559164112066355</X><Y>51.75189179740045</Y></Point>
-					</Points>
-					<SourceLane>1</SourceLane>
-					<TargetLane>0</TargetLane>
-				</LaneConnector>
-				<LaneConnector SourceId="1598907248538" TargetId="1603982831646">
-					<Id>1603982831656</Id>
-					<Name><![CDATA[laneConnector36]]></Name>
-					<X>351.97883588793366</X><Y>287.69510820259956</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<Z>0</Z>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>33.559164112066355</X><Y>51.75189179740045</Y></Point>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>4.28820892082507</X><Y>6.29968836306773</Y></Point>
-						<Point><X>4.28820892082507</X><Y>6.29968836306773</Y></Point>
-						<Point><X>9.915275322821401</X><Y>14.56625498455719</Y></Point>
-						<Point><X>48.230634394939614</X><Y>-2.4438450100308273</Y></Point>
-						<Point><X>46.19659902652597</X><Y>7.347104898943428</Y></Point>
-						<Point><X>33.559164112066355</X><Y>51.75189179740045</Y></Point>
 					</Points>
 					<SourceLane>1</SourceLane>
 					<TargetLane>1</TargetLane>
@@ -16052,6 +15907,83 @@
 					<Height>60</Height>
 					<Rotation>0.0</Rotation>
 				</RectangleNode>
+    			<BarChart>
+					<Id>1604447720182</Id>
+					<Name><![CDATA[chart]]></Name>
+					<X>1580</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1604476800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>230</Width>
+					<Height>290</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>150</Width>
+						<Height>150</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>80</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[delay1.statsUtilization.mean()]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[utilización entrada 1]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[delay2.statsUtilization.mean()]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[utilización entrada 2]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[delay3.statsUtilization.mean()]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[utilzación entrada 3]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[delay4.statsUtilization.mean()]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[utilización entrada 4]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
 			</Presentation>
 
 				</Level>
